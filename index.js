@@ -23,19 +23,19 @@ function changeLeastFavoriteCustomer() {
     leastFavoriteCustomer = 'number three'; 
 }
 
-// Function calls 
-console.log(`Initial customerName: ${customerName}`); 
+// Function calls
+console.log(customerName); 
 
-upperCaseCustomerName();
-console.log(`After upperCaseCustomerName: ${customerName}`); 
+upperCaseCustomerName(); 
+console.log(customerName); 
 
-setBestCustomer();
-console.log(`Initial bestCustomer: ${bestCustomer}`); 
+setBestCustomer(); 
+console.log(bestCustomer); 
 
-overwriteBestCustomer();
-console.log(`After overwriteBestCustomer: ${bestCustomer}`); 
+overwriteBestCustomer(); 
+console.log(bestCustomer); 
 
-console.log(`Initial leastFavoriteCustomer: ${leastFavoriteCustomer}`);
+console.log(leastFavoriteCustomer); 
 
 changeLeastFavoriteCustomer(); 
 
