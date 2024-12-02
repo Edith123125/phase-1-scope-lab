@@ -1,41 +1,24 @@
 // Step 1: Global variable declaration
-var customerName = 'bob';
+var customerName = 'bob';  
 
-// Step 2: Uppercasing
+// Step 2: Uppercasing function
 function upperCaseCustomerName() {
-    customerName = customerName.toUpperCase();
+    customerName = customerName.toUpperCase(); 
 }
 
-// Step 3: Function bestCustomer
+// Step 3: Declare bestCustomer globally
+var bestCustomer;  
+
 function setBestCustomer() {
-    bestCustomer = 'not bob'; 
+    bestCustomer = 'not bob';  
 }
-
 // Step 4: Overwriting bestCustomer
-function overwriteBestCustomer() {
-    bestCustomer = 'maybe bob';
+function overwriteBestCustomer(){
+    bestCustomer = 'maybe bob'
+    console.log(bestCustomer)
 }
-
 // Step 5: Constant declaration and trying to change it
-const leastFavoriteCustomer = 'number one';
-
-function changeLeastFavoriteCustomer() {
-    leastFavoriteCustomer = 'number three'; 
+const leastFavoriteCustomer = 'Edith'
+function changeLeastFavoriteCustomer(){
+    leastFavoriteCustomer='Kobia'
 }
-
-// Function calls
-console.log(customerName); 
-
-upperCaseCustomerName(); 
-console.log(customerName); 
-
-setBestCustomer(); 
-console.log(bestCustomer); 
-
-overwriteBestCustomer(); 
-console.log(bestCustomer); 
-
-console.log(leastFavoriteCustomer); 
-
-changeLeastFavoriteCustomer(); 
-
